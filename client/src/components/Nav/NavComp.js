@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './navComp.css';
 
 const NavComp = () => {
@@ -9,7 +9,7 @@ const NavComp = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg">
                 <Link to='/'>
                     <div className="navbar-brand">
-                        <img className='nav-logo' alt='logo' src=''></img>
+                        <img className='nav-logo' alt='logo' src='https://assets.site-static.com/userFiles/685/image/a_plus.jpg'></img>
                     </div>
                 </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
