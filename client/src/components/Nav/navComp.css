@@ -1,0 +1,40 @@
+/* .navBar-container {
+    font-family: 'Amatic SC', cursive;
+} */
+
+.nav-item {
+    margin-right: 30px;
+}
+
+.nav-logo {
+    width: 50px;
+    margin-left: 10px;
+}
+
+.bg {
+    --bs-bg-opacity: 1;
+    background-color: rgb(240, 240, 240);
+}
+
+div nav a {
+    text-decoration: none;
+    font-size: 21px;
+}
+
+div nav {
+    height: 80px;
+}
+
+@media screen and (max-width: 991.33px) {
+    .nav-logo {
+        margin-top: 0;
+    }
+
+    div nav {
+        height: auto;
+    }
+
+    .nav-item {
+        margin-right: 0;
+    }
+}
