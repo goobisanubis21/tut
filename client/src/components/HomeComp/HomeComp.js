@@ -1,24 +1,26 @@
 import React, {useRef} from 'react';
-import API from '../../utils/API'
+// import API from '../../utils/API'
 
 const HomeComp = () => {
 
-    const firstNameRef = useRef()
+    // const firstNameRef = useRef()
 
-    const handleSubmit = (e) => {
-        e.preventDefault()
-        API.saveUser({
-            first_name: firstNameRef.current.value
-        })
-    }
+    // const handleSubmit = (e) => {
+    //     e.preventDefault()
+    //     API.saveUser({
+    //         first_name: firstNameRef.current.value
+    //     })
+    // }
 
     return (
         <div>
-            Home Page
-            <form onSubmit={handleSubmit}>
+            <div>
+                <h1>Tutor Company Name</h1>
+            </div>
+            {/* <form onSubmit={handleSubmit}>
                 <input className='first' ref={firstNameRef}></input>
                 <button type='submit'>Submit</button>
-            </form>
+            </form> */}
         </div>
     )
 }

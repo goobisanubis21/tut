@@ -20,6 +20,15 @@ const NavComp = () => {
                         <li className="nav-item">
                             <Link to='/'><div className="nav-link">Home</div></Link>
                         </li>
+                        <li className="nav-item">
+                            <Link to='/mission'><div className="nav-link">Our Mission</div></Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/contact'><div className="nav-link">Contact Us</div></Link>
+                        </li>
+                        <div className='signup-container'>
+                            <Link to='/signup'><button className='signup-btn'>Sign Up</button></Link>
+                        </div>
                     </ul>
                 </div>
             </nav>
