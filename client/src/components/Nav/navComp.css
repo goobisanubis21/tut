@@ -23,6 +23,7 @@ div nav a {
 
 div nav a div {
     color: white !important;
+    font-weight: 200;
 }
 
 div nav {
